@@ -1,6 +1,6 @@
 # Weather App 
 
-Head to this link to check it out: [dev-note: include link here...]
+Head to this link to check it out: [Weather App](https://rvvshid04.github.io/weather-app-fe/)
 
 ## Technologies
 - React
