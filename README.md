@@ -24,7 +24,7 @@ I used documentation, YT tutorials, and AI-assisted development using Claude AI 
 - Data caching (5-minute expiration) 
 - Login/ Logout to access weather app
 - MFA authentication using **OTP via Authenticator, Email, Recovery Code** on Auth0.
-    - Couldn't implement Email without another form hence MFA - so I went with Authenticator. As opposed to SMS (which required SMS provider like Twilio), FIDO security keys (overkill), etc.
+    - Implemented Email after enabling OTP Authenticator to fit MFA criteria as per Auth0.
 
 ---
 
