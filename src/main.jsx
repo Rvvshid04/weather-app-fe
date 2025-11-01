@@ -12,7 +12,7 @@ root.render(
       domain="rvvshid04.jp.auth0.com"
       clientId="4O9FSFbvL1Fh8aFOMhneL0GLKzBVtIto"
       authorizationParams={{
-        redirect_uri: window.location.origin,
+        redirect_uri: 'https://rvvshid04.github.io/weather-app-fe/',
       }}
     >
       <App />
