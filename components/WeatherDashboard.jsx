@@ -36,8 +36,6 @@ export default function WeatherDashboard() {
     }
   };
 
-  const kelvinToCelsius = (kelvin) => Math.round(kelvin - 273.15);
-
   const getWeatherIcon = (iconCode) => {
     return `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
   };
@@ -199,7 +197,7 @@ export default function WeatherDashboard() {
                       <p className="text-white capitalize font-medium text-sm">{city.weather[0].description}</p>
                     </div>
                   </div>
-                  <div className="text-4xl font-bold text-white">{kelvinToCelsius(city.main.temp)}°C</div>
+                  <div className="text-4xl font-bold text-white">{city.main.temp}°C</div>
                 </div>
 
                 <div className="text-white space-y-1 text-xs">
