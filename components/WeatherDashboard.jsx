@@ -201,8 +201,8 @@ export default function WeatherDashboard() {
                 </div>
 
                 <div className="text-white space-y-1 text-xs">
-                  <p>Temp Min: {kelvinToCelsius(city.main.temp_min)}°C</p>
-                  <p>Temp Max: {kelvinToCelsius(city.main.temp_max)}°C</p>
+                  <p>Temp Min: {city.main.temp_min}°C</p>
+                  <p>Temp Max: {city.main.temp_max}°C</p>
                 </div>
               </div>
 
@@ -342,12 +342,12 @@ export default function WeatherDashboard() {
                           <p className="text-white capitalize font-medium text-sm">{city.weather[0].description}</p>
                         </div>
                       </div>
-                      <div className="text-4xl font-bold text-white">{kelvinToCelsius(city.main.temp)}°C</div>
+                      <div className="text-4xl font-bold text-white">{city.main.temp}°C</div>
                     </div>
 
                     <div className="text-white space-y-1 text-xs">
-                      <p>Temp Min: {kelvinToCelsius(city.main.temp_min)}°C</p>
-                      <p>Temp Max: {kelvinToCelsius(city.main.temp_max)}°C</p>
+                      <p>Temp Min: {city.main.temp_min}°C</p>
+                      <p>Temp Max: {city.main.temp_max}°C</p>
                     </div>
                   </div>
 
