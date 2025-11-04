@@ -70,6 +70,22 @@ cd weather-app-fe
 npm run dev
 ```
 
+# UI of the weather app
+### WeatherApp-SignIn-Landing Page
+![Weather-Landing-SignIn-Page](https://github.com/Rvvshid04/weather-app-fe/blob/main/weather-app-landing.png?raw=true)
+
+### WeatherApp Auth0 Login Authentication
+![WeatherApp Auth0 Login](https://github.com/Rvvshid04/weather-app-fe/blob/main/weather-app-auth0-login.png?raw=true)
+
+### WeatherApp-Loading
+![WeatherApp-Loading](https://github.com/Rvvshid04/weather-app-fe/blob/main/weather-app-loading.png?raw=true)
+
+### WeatherApp-Dashboard
+![WeatherApp Dashboard](https://github.com/Rvvshid04/weather-app-fe/blob/main/weather-app-dashboard.png?raw=true)
+
+### WeatherApp Individual Card
+![WeatherApp Individual Card](https://github.com/Rvvshid04/weather-app-fe/blob/main/weather-app-individual-card.png?raw=true)
+
 ### Additional notes:
 - Ensure you have Node.js installed (v16+ recommended).
 - The app caches weather data for 5 minutes to reduce API calls.
